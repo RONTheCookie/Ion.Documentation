@@ -48,10 +48,6 @@ Get started quickly and conviniently with the following one-liner:
 $ curl -sSL https://raw.githubusercontent.com/IonLanguage/Ion.CLI/master/install.sh | sudo sh
 ```
 
-Or as root:
-```shell
-# curl -sSL https://raw.githubusercontent.com/IonLanguage/Ion.CLI/master/install.sh | sh
-```
 If you wish to view the source code of the installer script, simply navigate to its [source URL](https://raw.githubusercontent.com/IonLanguage/Ion.CLI/master/install.sh):
 
 
