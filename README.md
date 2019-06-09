@@ -1,4 +1,4 @@
-#### Table of contents
+### Table of contents
 
 * [Resources](#resources)
 * [Introduction](#introduction)
@@ -9,19 +9,19 @@
 * [Technologies](#technologies)
 * [Workflow](#workflow)
 
-#### Resources
+### Resources
 
 * Syntax highlighting
     * [Notepad++](resources/npp-syntax.xml)
     * [Visual Studio Code](https://github.com/IonLanguage/Ion.VSCode) (undergoing early development)
 
-#### Introduction
+### Introduction
 
 The Ion language project is a programming language currently undergoing active, early development. It was created mainly for research purposes, however it is fair to say that it has grown beyond that.
 
 Ion is an umbrella project that borrows functionality from its various respositories to accomplish a fully functional, compiled programming language.
 
-#### Core principles
+### Core principles
 
 1. **Simplicity**. The language should be simple, or as powerful as the programmer wishes. This means that some symbols and patterns are optional and infered by the compiler.
 
@@ -163,7 +163,7 @@ import my.other.module as other;
 // ...
 ```
 
-#### Naming convention
+### Naming convention
 
 #### Functions
 
@@ -203,11 +203,11 @@ int main() {
 }
 ```
 
-#### Technologies
+### Technologies
 
 The entire project has been implemented around Microsoft's C# language, using .NET Core.
 
-#### Workflow
+### Workflow
 
 In the future, the Ion.IR repository will be the central point connecting all other repositories.
 
