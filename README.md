@@ -1,7 +1,9 @@
 ### Table of contents
 
-* [Resources](#resources)
 * [Introduction](#introduction)
+* [Requirements](#requirements)
+* [Installation](#installation)
+* [Resources](#resources)
 * [Core principles](#core-principles)
 * [Examples](#examples)
 * [Syntax](#syntax)
@@ -9,17 +11,29 @@
 * [Technologies](#technologies)
 * [Workflow](#workflow)
 
-### Resources
-
-* Syntax highlighting
-    * [Notepad++](resources/npp-syntax.xml)
-    * [Visual Studio Code](https://github.com/IonLanguage/Ion.VSCode) (undergoing early development)
-
 ### Introduction
 
 The Ion language project is a programming language currently undergoing active, early development. It was created mainly for research purposes, however it is fair to say that it has grown beyond that.
 
 Ion is an umbrella project that borrows functionality from its various respositories to accomplish a fully functional, compiled programming language.
+
+### Requirements
+
+Lucky for you, there are not many requirements!
+
+> [Microsoft Visual C++ Redistributable 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145) (**Windows only**)
+
+### Installation
+
+Head over to the releases page on the CLI utility's repository to get your installer.
+
+> [View releases](https://github.com/IonLanguage/Ion.CLI/releases)
+
+### Resources
+
+* Syntax highlighting
+    * [Notepad++](resources/npp-syntax.xml)
+    * [Visual Studio Code](https://github.com/IonLanguage/Ion.VSCode) (undergoing early development)
 
 ### Core principles
 
@@ -248,3 +262,15 @@ The Ion.CLI project serves multiple essential purposes:
 Since LLVM's functionality of LLVM IR to Bitcode compilation is only available through its executable tools, releases are forced to package the compiled LLVM tools.
 
 The Ion.CLI repository manages and oversees the execution of these tools.
+
+#### Frequently asked questions
+
+**What is Ion?** Ion is a high-level (and low-level), strongly-typed language implemented using the LLVM project, currently undergoing early development.
+
+**What is the purpose of this project?** A research project. The purpose of this language is to serve as the basis for learning, and experimenting with compiler design. However, the language is to be fully implemented and functional.
+
+**Why should I use Ion?** If you're a fan of fast development, and simply want your development workflow to be smooth, yet rigid when necessary, Ion is a language for you.
+
+**How can I learn compiler design?** We strongly recommend you start your journey into the mysterious and complex world of compiler design through [this book](http://www.informatik.uni-bremen.de/agbkb/lehre/ccfl/Material/ALSUdragonbook.pdf). Wikipedia is also your best friend.
+
+**What is the technology stack used for this project?** The C# language is the main language used to implement both the core compiler library (this repository) and the CLI utility. LLVM (using C# bindings) is used for code generation. NUnit is used for both compiler and CLI tests, although a partial custom testing framework (based upon NUnit) is currently being implemented in order to satisfy the specific unit testing needs of the projects.
