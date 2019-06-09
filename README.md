@@ -2,6 +2,7 @@
 
 * [Introduction](#introduction)
 * [Requirements](#requirements)
+* [Platform support](#platform-support)
 * [Installation](#installation)
 * [Getting started](#getting-started)
 * [Resources](#resources)
@@ -11,6 +12,7 @@
 * [Naming convention](#naming-convention)
 * [Technologies](#technologies)
 * [Workflow](#workflow)
+* [Frequently asked questions](#frequently-asked-questions)
 
 ### Introduction
 
@@ -23,6 +25,14 @@ Ion is an umbrella project that borrows functionality from its various resposito
 Lucky for you, there are not many requirements!
 
 > [Microsoft Visual C++ Redistributable 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145) (**Windows only**)
+
+### Supported platforms
+
+| Platform / Architecture     | x86 | x86_64 | ARM |
+|-----------------------------|-----|--------|------
+| Windows 10                  | ✓   | ✓      | x   |
+| Linux                       | ✓   | ✓      | ✓   |
+| OSX (10.12 Sierra or later) | ✓   | ✓      | -   |
 
 ### Installation
 
