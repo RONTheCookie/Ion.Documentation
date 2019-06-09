@@ -26,7 +26,7 @@ Lucky for you, there are not many requirements!
 
 > [Microsoft Visual C++ Redistributable 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145) (**Windows only**)
 
-### Supported platforms
+### Platform support
 
 | Platform / Architecture     | x86 | x86_64 | ARM |
 |-----------------------------|-----|--------|------
