@@ -20,4 +20,5 @@ In the future, the Ion.IR repository will be the central point connecting all ot
 
 Below is a diagram of the future workflow implementation of the project.
 
+<br />
 <img src="assets/workflow.png" />
