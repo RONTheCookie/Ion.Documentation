@@ -68,8 +68,8 @@ Use the following instructions to initialize and run a project in Windows.
 cmd> mkdir myproject
 cmd> cd myproject
 cmd> ion init
-cmd> mkdir Src
-cmd> notepad Src/main.ion
+cmd> mkdir src
+cmd> notepad src/main.ion
 ```
 
 Paste the following source code:
