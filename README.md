@@ -29,6 +29,20 @@ Head over to the releases page on the CLI utility's repository to get your insta
 
 > [View releases](https://github.com/IonLanguage/Ion.CLI/releases)
 
+#### Linux
+
+Get started quickly and conviniently with the following one-liner:
+
+```shell
+$ curl -sSL https://raw.githubusercontent.com/IonLanguage/Ion.CLI/master/install.sh | bash
+```
+
+If you wish to view the source code of the installer script, simply navigate to its source URL:
+
+```
+https://raw.githubusercontent.com/IonLanguage/Ion.CLI/master/install.sh
+```
+
 ### Resources
 
 * Syntax highlighting
