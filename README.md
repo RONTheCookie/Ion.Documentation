@@ -52,11 +52,9 @@ Or as root:
 ```shell
 # curl -sSL https://raw.githubusercontent.com/IonLanguage/Ion.CLI/master/install.sh | sh
 ```
-If you wish to view the source code of the installer script, simply navigate to its source URL:
+If you wish to view the source code of the installer script, simply navigate to its [source URL](https://raw.githubusercontent.com/IonLanguage/Ion.CLI/master/install.sh):
 
-```
-https://raw.githubusercontent.com/IonLanguage/Ion.CLI/master/install.sh
-```
+
 
 ### Getting started
 
