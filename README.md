@@ -215,3 +215,36 @@ Below is a diagram of the future workflow implementation of the project.
 
 <br />
 <img src="assets/workflow.png" />
+
+Below is a diagram of the different stages that the compilation process undergoes before reaching final executable form.
+
+<br />
+<img src="assets/stages.png" />
+
+#### libllvm
+
+libllvm is the C LLVM library used by LLVMSharp.
+
+#### LLVMSharp
+
+LLVMSharp is an external NuGet package that provides the C# bindings of the C LLVM library to all projects that require it.
+
+#### IonIR
+
+The Ion.IR repository allows creation, manipulation and generation of Ion's intermediate representation language named `IonIR`.
+
+The Ion.IR repository plays a vital role in the project. Ion.IR's simple API implementation allows for efficient and easy manipulation of IonIR code. Compared to the Ion language, IonIR code is much simpler, concise and condensed. This is key because it strips the need of handling Ion's complex, abstracted syntax.
+
+The Ion.IR repository is the last step of program compilation. Code generation is handled here through the C# LLVM library bindings.
+
+#### IonCLI
+
+The Ion.CLI project serves multiple essential purposes:
+
+1. LLVM toolchain wrapper
+2. Ion code compilation CLI utility
+3. Package management
+
+Since LLVM's functionality of LLVM IR to Bitcode compilation is only available through its executable tools, releases are forced to package the compiled LLVM tools.
+
+The Ion.CLI repository manages and oversees the execution of these tools.
