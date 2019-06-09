@@ -342,7 +342,7 @@ Since LLVM's functionality of LLVM IR to Bitcode compilation is only available t
 
 The Ion.CLI repository manages and oversees the execution of these tools.
 
-#### Frequently asked questions
+### Frequently asked questions
 
 **What is Ion?** Ion is a high-level (and low-level), strongly-typed language implemented using the LLVM project, currently undergoing early development.
 
