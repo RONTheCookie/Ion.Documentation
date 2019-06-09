@@ -3,6 +3,7 @@
 * [Introduction](#introduction)
 * [Requirements](#requirements)
 * [Installation](#installation)
+* [Getting started](#getting-started)
 * [Resources](#resources)
 * [Core principles](#core-principles)
 * [Examples](#examples)
@@ -41,6 +42,70 @@ If you wish to view the source code of the installer script, simply navigate to 
 
 ```
 https://raw.githubusercontent.com/IonLanguage/Ion.CLI/master/install.sh
+```
+
+### Getting started
+
+Make sure you have Ion installed on your machine at this point.
+
+#### Windows
+
+Use the following instructions to initialize and run a project in Windows.
+
+```shell
+cmd> mkdir myproject
+cmd> cd myproject
+cmd> ion init
+cmd> mkdir Src
+cmd> notepad Src/main.ion
+```
+
+Paste the following source code:
+
+```c#
+extern int puts(string message);
+
+void main() {
+    puts("Hello world!");
+}
+```
+
+Now, save your file and close the Notepad editor.
+
+You're now ready to run your program! Use the following command to compile & run your program:
+
+```shell
+cmd> ion run
+```
+
+#### Linux
+
+Use the following instructions to initialize and run a project in Linux.
+
+```shell
+$ mkdir myproject
+$ cd myproject
+$ ion init
+$ mkdir src
+$ nano src/main.ion
+```
+
+Paste the following source code:
+
+```c#
+extern int puts(string message);
+
+void main() {
+    puts("Hello world!");
+}
+```
+
+Now, save your file by pressing `CTRL + X`, then pressing `Y` and finally `ENTER`.
+
+You're now ready to run your program! Use the following command to compile & run your program:
+
+```shell
+$ ion run
 ```
 
 ### Resources
